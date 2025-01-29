@@ -61,3 +61,45 @@
 2025-01-29 10:06:26,862 - INFO - Returning the modified dataframe.
 2025-01-29 10:07:58,828 - INFO - Starting normalization of columns: ['TotalTransactions', 'StdTransactionAmount']
 2025-01-29 10:07:58,838 - INFO - Columns ['TotalTransactions', 'StdTransactionAmount'] normalized successfully.
+2025-01-29 10:39:31,123 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:39:31,123 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:39:37,675 - INFO - Starting RFMS calculation
+2025-01-29 10:39:37,675 - INFO - Starting RFMS calculation
+2025-01-29 10:39:37,676 - INFO - Calculating Recency
+2025-01-29 10:39:37,676 - INFO - Calculating Recency
+2025-01-29 10:40:50,624 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:40:50,624 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:44:15,130 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:44:15,130 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:44:17,632 - INFO - Starting RFMS calculation
+2025-01-29 10:44:17,632 - INFO - Starting RFMS calculation
+2025-01-29 10:44:17,634 - INFO - Calculating Recency
+2025-01-29 10:44:17,634 - INFO - Calculating Recency
+2025-01-29 10:44:40,553 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 28)
+2025-01-29 10:44:40,553 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 28)
+2025-01-29 10:44:42,468 - INFO - Starting RFMS calculation
+2025-01-29 10:44:42,468 - INFO - Starting RFMS calculation
+2025-01-29 10:44:42,470 - INFO - Calculating Recency
+2025-01-29 10:44:42,470 - INFO - Calculating Recency
+2025-01-29 10:44:42,660 - INFO - Recency calculation completed
+2025-01-29 10:44:42,660 - INFO - Recency calculation completed
+2025-01-29 10:44:42,660 - INFO - Calculating Frequency
+2025-01-29 10:44:42,660 - INFO - Calculating Frequency
+2025-01-29 10:44:42,685 - INFO - Frequency calculation completed
+2025-01-29 10:44:42,685 - INFO - Frequency calculation completed
+2025-01-29 10:44:42,685 - INFO - Calculating Monetary Value
+2025-01-29 10:44:42,685 - INFO - Calculating Monetary Value
+2025-01-29 10:44:42,702 - INFO - Monetary Value calculation completed
+2025-01-29 10:44:42,702 - INFO - Monetary Value calculation completed
+2025-01-29 10:44:42,748 - INFO - Calculating RFMS Label
+2025-01-29 10:44:42,748 - INFO - Calculating RFMS Label
+2025-01-29 10:44:42,756 - INFO - RFMS Label assignment completed
+2025-01-29 10:44:42,756 - INFO - RFMS Label assignment completed
+2025-01-29 10:44:42,756 - INFO - RFMS calculation and labeling completed
+2025-01-29 10:44:42,756 - INFO - RFMS calculation and labeling completed
+2025-01-29 10:45:11,075 - INFO - Labeling initialized with DataFrame of shape (95662, 32)
+2025-01-29 10:45:11,075 - INFO - Labeling initialized with DataFrame of shape (95662, 32)
+2025-01-29 10:45:17,256 - INFO - Assigning Good/Bad labels
+2025-01-29 10:45:17,256 - INFO - Assigning Good/Bad labels
+2025-01-29 10:45:17,275 - INFO - Label assignment completed
+2025-01-29 10:45:17,275 - INFO - Label assignment completed
