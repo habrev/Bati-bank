@@ -1,0 +1,40 @@
+2025-01-29 09:45:38,673 - INFO - missing_values_table function called
+2025-01-29 09:45:38,673 - INFO - missing_values_table function called
+2025-01-29 09:45:38,818 - INFO - DataFrame has 16 columns, 0 columns have missing values
+2025-01-29 09:45:38,818 - INFO - DataFrame has 16 columns, 0 columns have missing values
+2025-01-29 09:45:42,263 - INFO - column_summary function called
+2025-01-29 09:45:42,263 - INFO - column_summary function called
+2025-01-29 09:45:42,796 - INFO - Column summary generated
+2025-01-29 09:45:42,796 - INFO - Column summary generated
+2025-01-29 09:46:42,401 - INFO - Starting plot_top_customers function
+2025-01-29 09:46:42,401 - INFO - Starting plot_top_customers function
+2025-01-29 09:46:42,401 - INFO - Plotting top ten customers based on amount paid
+2025-01-29 09:46:42,401 - INFO - Plotting top ten customers based on amount paid
+2025-01-29 09:46:42,754 - INFO - Plotting top ten customers based on number of transactions
+2025-01-29 09:46:42,754 - INFO - Plotting top ten customers based on number of transactions
+2025-01-29 09:46:43,120 - INFO - plot_top_customers function completed successfully
+2025-01-29 09:46:43,120 - INFO - plot_top_customers function completed successfully
+2025-01-29 09:46:53,567 - INFO - univariate_analysis function called for column ChannelId
+2025-01-29 09:46:53,567 - INFO - univariate_analysis function called for column ChannelId
+2025-01-29 09:46:53,945 - INFO - Category distribution plot generated for column ChannelId
+2025-01-29 09:46:53,945 - INFO - Category distribution plot generated for column ChannelId
+2025-01-29 09:47:06,435 - INFO - univariate_analysis function called for column ProductCategory
+2025-01-29 09:47:06,435 - INFO - univariate_analysis function called for column ProductCategory
+2025-01-29 09:47:06,752 - INFO - Category distribution plot generated for column ProductCategory
+2025-01-29 09:47:06,752 - INFO - Category distribution plot generated for column ProductCategory
+2025-01-29 09:47:16,155 - INFO - univariate_analysis function called for column Amount
+2025-01-29 09:47:16,155 - INFO - univariate_analysis function called for column Amount
+2025-01-29 09:47:17,369 - INFO - Histogram and boxplot generated for column Amount
+2025-01-29 09:47:17,369 - INFO - Histogram and boxplot generated for column Amount
+2025-01-29 09:47:28,648 - INFO - univariate_analysis function called for column FraudResult
+2025-01-29 09:47:28,648 - INFO - univariate_analysis function called for column FraudResult
+2025-01-29 09:47:29,811 - INFO - Histogram and boxplot generated for column FraudResult
+2025-01-29 09:47:29,811 - INFO - Histogram and boxplot generated for column FraudResult
+2025-01-29 09:47:37,093 - INFO - correlation_analysis function called.
+2025-01-29 09:47:37,093 - INFO - correlation_analysis function called.
+2025-01-29 09:47:37,099 - INFO - Numerical columns selected: ['CountryCode', 'Amount', 'Value', 'PricingStrategy', 'FraudResult']
+2025-01-29 09:47:37,099 - INFO - Numerical columns selected: ['CountryCode', 'Amount', 'Value', 'PricingStrategy', 'FraudResult']
+2025-01-29 09:47:37,112 - INFO - Correlation matrix computed successfully.
+2025-01-29 09:47:37,112 - INFO - Correlation matrix computed successfully.
+2025-01-29 09:47:37,423 - INFO - Correlation heatmap displayed successfully.
+2025-01-29 09:47:37,423 - INFO - Correlation heatmap displayed successfully.
