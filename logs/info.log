@@ -38,3 +38,80 @@
 2025-01-29 09:47:37,112 - INFO - Correlation matrix computed successfully.
 2025-01-29 09:47:37,423 - INFO - Correlation heatmap displayed successfully.
 2025-01-29 09:47:37,423 - INFO - Correlation heatmap displayed successfully.
+2025-01-29 10:05:09,781 - INFO - AggregateFeatures initialized with dataframe of shape (95662, 16)
+2025-01-29 10:05:17,723 - INFO - Calculating total transaction amount per customer.
+2025-01-29 10:05:17,802 - INFO - Total transaction amount per customer calculated successfully.
+2025-01-29 10:05:24,810 - INFO - Calculating average transaction amount per customer.
+2025-01-29 10:05:24,891 - INFO - Average transaction amount per customer calculated successfully.
+2025-01-29 10:05:31,360 - INFO - Calculating number of transactions per customer.
+2025-01-29 10:05:31,439 - INFO - Number of transactions per customer calculated successfully.
+2025-01-29 10:05:38,001 - INFO - Calculating standard deviation of transaction amounts per customer.
+2025-01-29 10:05:38,080 - INFO - Standard deviation of transaction amounts per customer calculated successfully.
+2025-01-29 10:05:45,418 - INFO - Returning the modified dataframe.
+2025-01-29 10:05:52,974 - INFO - Extracting_features initialized with dataframe of shape (95662, 20)
+2025-01-29 10:05:59,650 - INFO - Converting TransactionStartTime to datetime
+2025-01-29 10:05:59,883 - INFO - Extracting the hour of the transaction.
+2025-01-29 10:05:59,895 - INFO - Hour of the transaction extracted successfully.
+2025-01-29 10:06:06,566 - INFO - Extracting the day of the transaction.
+2025-01-29 10:06:06,572 - INFO - Day of the transaction extracted successfully.
+2025-01-29 10:06:13,881 - INFO - Extracting the month of the transaction.
+2025-01-29 10:06:13,888 - INFO - Month of the transaction extracted successfully.
+2025-01-29 10:06:20,135 - INFO - Extracting the year of the transaction.
+2025-01-29 10:06:20,141 - INFO - Year of the transaction extracted successfully.
+2025-01-29 10:06:26,862 - INFO - Returning the modified dataframe.
+2025-01-29 10:07:58,828 - INFO - Starting normalization of columns: ['TotalTransactions', 'StdTransactionAmount']
+2025-01-29 10:07:58,838 - INFO - Columns ['TotalTransactions', 'StdTransactionAmount'] normalized successfully.
+2025-01-29 10:39:31,123 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:39:31,123 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:39:37,675 - INFO - Starting RFMS calculation
+2025-01-29 10:39:37,675 - INFO - Starting RFMS calculation
+2025-01-29 10:39:37,676 - INFO - Calculating Recency
+2025-01-29 10:39:37,676 - INFO - Calculating Recency
+2025-01-29 10:40:50,624 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:40:50,624 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:44:15,130 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:44:15,130 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 27)
+2025-01-29 10:44:17,632 - INFO - Starting RFMS calculation
+2025-01-29 10:44:17,632 - INFO - Starting RFMS calculation
+2025-01-29 10:44:17,634 - INFO - Calculating Recency
+2025-01-29 10:44:17,634 - INFO - Calculating Recency
+2025-01-29 10:44:40,553 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 28)
+2025-01-29 10:44:40,553 - INFO - RFMSCalculator initialized with DataFrame of shape (95662, 28)
+2025-01-29 10:44:42,468 - INFO - Starting RFMS calculation
+2025-01-29 10:44:42,468 - INFO - Starting RFMS calculation
+2025-01-29 10:44:42,470 - INFO - Calculating Recency
+2025-01-29 10:44:42,470 - INFO - Calculating Recency
+2025-01-29 10:44:42,660 - INFO - Recency calculation completed
+2025-01-29 10:44:42,660 - INFO - Recency calculation completed
+2025-01-29 10:44:42,660 - INFO - Calculating Frequency
+2025-01-29 10:44:42,660 - INFO - Calculating Frequency
+2025-01-29 10:44:42,685 - INFO - Frequency calculation completed
+2025-01-29 10:44:42,685 - INFO - Frequency calculation completed
+2025-01-29 10:44:42,685 - INFO - Calculating Monetary Value
+2025-01-29 10:44:42,685 - INFO - Calculating Monetary Value
+2025-01-29 10:44:42,702 - INFO - Monetary Value calculation completed
+2025-01-29 10:44:42,702 - INFO - Monetary Value calculation completed
+2025-01-29 10:44:42,748 - INFO - Calculating RFMS Label
+2025-01-29 10:44:42,748 - INFO - Calculating RFMS Label
+2025-01-29 10:44:42,756 - INFO - RFMS Label assignment completed
+2025-01-29 10:44:42,756 - INFO - RFMS Label assignment completed
+2025-01-29 10:44:42,756 - INFO - RFMS calculation and labeling completed
+2025-01-29 10:44:42,756 - INFO - RFMS calculation and labeling completed
+2025-01-29 10:45:11,075 - INFO - Labeling initialized with DataFrame of shape (95662, 32)
+2025-01-29 10:45:11,075 - INFO - Labeling initialized with DataFrame of shape (95662, 32)
+2025-01-29 10:45:17,256 - INFO - Assigning Good/Bad labels
+2025-01-29 10:45:17,256 - INFO - Assigning Good/Bad labels
+2025-01-29 10:45:17,275 - INFO - Label assignment completed
+2025-01-29 10:45:17,275 - INFO - Label assignment completed
+2025-01-29 11:14:50,237 - INFO - Calculating WoE for feature: Recency_bin
+2025-01-29 11:14:50,251 - INFO - WoE calculation completed for feature: Recency_bin
+2025-01-29 11:14:50,253 - INFO - Calculating WoE for feature: Frequency_bin
+2025-01-29 11:14:50,262 - INFO - WoE calculation completed for feature: Frequency_bin
+2025-01-29 11:14:50,264 - INFO - Calculating WoE for feature: Monetary_bin
+2025-01-29 11:14:50,271 - INFO - WoE calculation completed for feature: Monetary_bin
+2025-01-29 11:15:09,469 - INFO - Plotting WoE for feature: Recency_bin
+2025-01-29 11:15:09,934 - INFO - WoE plot completed for feature: Recency_bin
+2025-01-29 11:15:22,569 - INFO - Plotting WoE for feature: Frequency_bin
+2025-01-29 11:15:23,046 - INFO - WoE plot completed for feature: Frequency_bin
+2025-01-29 11:15:31,522 - INFO - Plotting WoE for feature: Monetary_bin
+2025-01-29 11:15:32,035 - INFO - WoE plot completed for feature: Monetary_bin
