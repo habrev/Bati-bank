@@ -86,3 +86,33 @@ Feature engineering is the process of transforming raw data into meaningful feat
 - Reduced dimensionality and better feature selection.
 - Enhanced model performance through transformed and encoded features.
 
+# Tak-4: Credit Scoring System using RFMS
+
+## Overview
+The objective of this credit scoring system is to classify users into **high-risk (bad)** and **low-risk (good)** groups using the **RFMS (Recency, Frequency, Monetary, and Stability)** formalism. High-risk users have a high likelihood of default, meaning they fail to pay their loan principal and interest on time.
+
+## Steps to Construct the Default Estimator
+
+### 1. Visualize Transactions in RFMS Space
+- Plot all transactions in the **RFMS** space.
+- Establish a **boundary** to classify users into high and low RFMS scores.
+- Users with **high RFMS scores** are classified as **good** (low-risk), while those with **low RFMS scores** are classified as **bad** (high-risk).
+
+### 2. Assign User Labels
+- Based on RFMS scores, assign users the labels:
+  - **Good (Low-Risk)**: Users with high RFMS scores.
+  - **Bad (High-Risk)**: Users with low RFMS scores.
+
+### 3. Perform Weight of Evidence (WoE) Binning
+- Apply **Weight of Evidence (WoE) binning** to transform categorical and continuous features for better predictive modeling.
+- WoE helps in quantifying risk and improving model interpretability
+
+## Implementation
+### Install Dependencies
+
+## Expected Outcomes
+- A **default estimator (proxy)** that classifies users into **good** and **bad** credit risk categories.
+- Visual representations of transactions in **RFMS space**.
+- Optimized features using **WoE binning**.
+- A robust dataset for training predictive models for credit risk assessment.
+
