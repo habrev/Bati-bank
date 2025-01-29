@@ -38,3 +38,26 @@
 2025-01-29 09:47:37,112 - INFO - Correlation matrix computed successfully.
 2025-01-29 09:47:37,423 - INFO - Correlation heatmap displayed successfully.
 2025-01-29 09:47:37,423 - INFO - Correlation heatmap displayed successfully.
+2025-01-29 10:05:09,781 - INFO - AggregateFeatures initialized with dataframe of shape (95662, 16)
+2025-01-29 10:05:17,723 - INFO - Calculating total transaction amount per customer.
+2025-01-29 10:05:17,802 - INFO - Total transaction amount per customer calculated successfully.
+2025-01-29 10:05:24,810 - INFO - Calculating average transaction amount per customer.
+2025-01-29 10:05:24,891 - INFO - Average transaction amount per customer calculated successfully.
+2025-01-29 10:05:31,360 - INFO - Calculating number of transactions per customer.
+2025-01-29 10:05:31,439 - INFO - Number of transactions per customer calculated successfully.
+2025-01-29 10:05:38,001 - INFO - Calculating standard deviation of transaction amounts per customer.
+2025-01-29 10:05:38,080 - INFO - Standard deviation of transaction amounts per customer calculated successfully.
+2025-01-29 10:05:45,418 - INFO - Returning the modified dataframe.
+2025-01-29 10:05:52,974 - INFO - Extracting_features initialized with dataframe of shape (95662, 20)
+2025-01-29 10:05:59,650 - INFO - Converting TransactionStartTime to datetime
+2025-01-29 10:05:59,883 - INFO - Extracting the hour of the transaction.
+2025-01-29 10:05:59,895 - INFO - Hour of the transaction extracted successfully.
+2025-01-29 10:06:06,566 - INFO - Extracting the day of the transaction.
+2025-01-29 10:06:06,572 - INFO - Day of the transaction extracted successfully.
+2025-01-29 10:06:13,881 - INFO - Extracting the month of the transaction.
+2025-01-29 10:06:13,888 - INFO - Month of the transaction extracted successfully.
+2025-01-29 10:06:20,135 - INFO - Extracting the year of the transaction.
+2025-01-29 10:06:20,141 - INFO - Year of the transaction extracted successfully.
+2025-01-29 10:06:26,862 - INFO - Returning the modified dataframe.
+2025-01-29 10:07:58,828 - INFO - Starting normalization of columns: ['TotalTransactions', 'StdTransactionAmount']
+2025-01-29 10:07:58,838 - INFO - Columns ['TotalTransactions', 'StdTransactionAmount'] normalized successfully.
